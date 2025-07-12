@@ -20,7 +20,7 @@ public class OpenApiConfig {
                         .description("API for IAM Service"))
                 .servers(List.of(
                         new Server()
-                                .url("http://localhost:8010/iam-service")
+                                .url("https://pawfect-gateway-service.azurewebsites.net/iam-service")
                                 .description("Gateway Server")/*,
                         new Server()
                                 .url("http://localhost:8122")
